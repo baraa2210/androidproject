@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".emptynote">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="14sp"
+        android:paddingBottom="14sp">
+        <Button
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="#7B1E58"
+            android:layout_marginStart="24sp"
+            android:layout_marginTop="14sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:textColor="#7B1E58"
+            android:textSize="28sp"
+            android:layout_marginTop="14sp"
+            android:layout_marginStart="230sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textSize="48sp"
+        android:textColor="#111"
+        android:layout_marginStart="24sp"
+        android:layout_marginTop="14sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="24sp"
+        android:layout_marginTop="14sp"
+        android:layout_marginEnd="24sp"
+        android:background="#F0EDED"
+        >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Search"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:background="@drawable/border"
+            android:padding="6dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="36sp"
+        android:orientation="vertical"
+        android:layout_marginBottom="14sp"
+        >
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@mipmap/empty_foreground"
+            />
+        <TextView
+            android:id="@+id/note_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let`s create a Note together "
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/titleNote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Enter Title Note"
+            android:textSize="24sp"
+            android:layout_marginTop="24sp"/>
+        <EditText
+            android:id="@+id/detailsNote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Enter details Note"
+            android:textSize="24sp"
+            android:layout_marginTop="14sp"/>
+        <EditText
+            android:id="@+id/categoryNote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Enter category Note"
+            android:textSize="24sp"
+            android:layout_marginTop="14sp"/>
+
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/addnote"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:drawableStart="@drawable/ic_add_circle_black_24dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="14sp"
+        android:background="@drawable/ic_add_circle_black_24dp"
+        />
+</LinearLayout>
