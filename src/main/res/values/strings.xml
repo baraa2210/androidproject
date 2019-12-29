@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Notebook Application</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="enter_email">Enter your email and we’ll send you instructions on how to reset your password</string>
+    <string name="enter_email_edittxt">Enter your email address</string>
+    <string name="recover_password">Recover password</string>
+    <string name="signup_signIn_txt">Sign in</string>
+    <string name="signup_header_text">Let’s complete creation of your Notebooks account</string>
+    <string name="signup_emailEditrxt_text">Enter your email address</string>
+    <string name="signup_passwordEditrxt_text">Enter your password</string>
+    <string name="signup_footer_text">By signing up you accept the Terms of Service and Privacy Policy.</string>
+    <string name="main_title">NotBooks</string>
+    <string name="main_description">NotBooks are the best place to manage your nots</string>
+    <string name="main_skip">Skip</string>
+    <string name="main_btn_next">Next</string>
+    <string name="nextmain_header">Add Notes to NoteBook</string>
+    <string name="nextmain_description">simple create your note and addit to your favorite notebook</string>
+    <string name="nextmain2_signin_btn">Sign In</string>
+    <string name="nextmain2_signup_btn">Sign Up</string>
+    <string name="login_welcome">Welcome Back ! You\'ve been missed</string>
+    <string name="login_enterEmail">Enter your email address</string>
+    <string name="login_enterPassword">Enter your password</string>
+    <string name="forget_password">Forget password ?</string>
+</resources>
