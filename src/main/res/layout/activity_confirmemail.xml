@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/check_your_email"
+        android:text="Check Your Email"
         android:gravity="center"
         android:textSize="38sp"
         android:textColor="@color/colortext"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/we_ve_sent_instructions_on_how_to_reset"
+        android:text="We`ve sent instructions on how to reset"
         android:gravity="center"
         android:textSize="18sp"
         android:layout_marginTop="24sp"
@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/the_password_also_check_the_spam_folder"
+        android:text="The password also check the spam folder"
         android:gravity="center"
         android:textSize="18sp"
         android:layout_marginBottom="48dp"/>
@@ -48,7 +48,7 @@
         android:id="@+id/confirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/go_to_email"
+        android:text="Go to Email"
         android:background="@color/colorbtnBackground"
         android:textColor="@color/btn_text_color"
         android:textSize="24sp"

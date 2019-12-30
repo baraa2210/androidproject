@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:drawableEnd="@drawable/ic_mode_edit_black_24dp"
+                android:drawableEnd="@drawable/ic_edit_black_24dp"
                 android:layout_marginStart="300sp"
                 />
         </LinearLayout>
@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="200sp"
                 android:layout_height="28sp"
-                android:text="@string/march_20_2018_15_35"
+                android:text="march_20_2018_15_35"
                 android:layout_marginStart="20dp"/>
 
         </LinearLayout>
@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/notes_app_design"
+            android:text="Notes app design"
             android:textColor="@color/colortext"
             android:textSize="36sp"
             android:layout_marginStart="30dp" />
@@ -77,7 +77,7 @@
             android:textSize="20sp"
             android:textColor="@color/colortext"
             android:layout_marginStart="30sp"
-            android:text="@string/Apparently_we_had_reached"
+            android:text="Apparently we had reached"
             tools:ignore="RtlCompat" />
 
     </LinearLayout>

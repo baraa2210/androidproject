@@ -10,7 +10,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:background="@color/cardBackground">
+        android:background="#F5F7F2F2">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,7 +24,7 @@
                 android:id="@+id/noteTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/my_plans_for_weekend"
+                android:text="My plans for weekend"
                 android:textSize="18sp"
                 android:textColor="@color/colortext"
                 android:drawablePadding="8sp"
@@ -44,7 +44,7 @@
             android:id="@+id/noteDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/top_thing_to_see_during_a_holiday_in_hong_kong_and_many_other_places"
+            android:text="top thingt see during aholiday in hong kong and many other places"
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="14dp"

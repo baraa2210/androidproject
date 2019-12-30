@@ -1,18 +1,34 @@
 package ps.gov.notebookapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class login extends AppCompatActivity {
     ImageView cancelImageView ;
     TextView forget_password_txtview ;
     TextView signUpTextView ;
-    EditText emailEt , passwordEt;
+    EditText emailEt;
+    EditText passwordEt;
     Button signUpBtn;
     FirebaseAuth mAuth;
     @Override
